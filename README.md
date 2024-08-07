@@ -12,4 +12,4 @@
    4. HTML5 and CSS3 Design elements
    5. Bootstrap Responsive Framework    
 
-To view the site on github pages go to http://Aarthyravi.github.io/Build-a-Portfolio
+To view the site on github pages go to https://jaisree25.github.io/My_Portfolio
