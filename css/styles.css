@@ -1,4 +1,4 @@
-/** {
+* {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -6,14 +6,14 @@
 }
 
 body {
-  background: linear-gradient(to bottom, #000000, #1a1a1a);
+  background-color: black !important;
   font-family: "Lato", sans-serif;
-  color: white;
+  color: #ff6600;
   font-weight: bold;
  }
 
 .text-muted {
-  color: white;
+  color: #bcbbbb;
 }
 .text-thin {
   font-weight: 100;
@@ -67,105 +67,3 @@ img {
     margin-left: auto;
   }
 }
-*/
-
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  font-family: 'Lato', sans-serif !important;
-  background: linear-gradient(to bottom, #000000, #1a1a1a) !important;
-  color: white !important;
-  font-weight: bold !important;
-}
-
-h1, h2, h3, h4, h5, h6, p, span {
-  color: white !important;
-  font-weight: bold !important;
-}
-
-a {
-  color: #ffffff !important;
-  font-weight: bold !important;
-  text-decoration: underline;
-}
-
-a:hover {
-  color: #00ffff !important;
-}
-
-.text-muted {
-  color: white !important;
-}
-
-.text-uppercase {
-  text-transform: uppercase !important;
-}
-
-.container {
-  padding-top: 20px;
-}
-
-header {
-  padding: 20px 0;
-}
-
-.title-logo {
-  max-height: 100px;
-}
-
-.title-super {
-  font-size: 2.5em;
-  color: white !important;
-  font-weight: bold !important;
-}
-
-.side-title {
-  font-size: 1.2em;
-  color: white !important;
-}
-
-hr {
-  border-color: #555 !important;
-}
-
-.img-responsive, .head img {
-  width: 100%;
-  height: auto;
-  border-radius: 6px;
-  margin-bottom: 20px;
-}
-
-.col-md-4 h3 {
-  margin-top: 15px;
-  color: white !important;
-  font-weight: bold !important;
-}
-
-.modal-content {
-  background-color: #222 !important;
-  color: white !important;
-  border: 1px solid #444 !important;
-}
-
-.modal-header, .modal-footer {
-  border-color: #444 !important;
-}
-
-.modal-title {
-  color: white !important;
-  font-weight: bold !important;
-}
-
-footer {
-  padding: 20px 0;
-  background-color: #111 !important;
-  text-align: center;
-}
-
-footer p {
-  margin: 0;
-  color: white !important;
-  font-weight: bold !important;
-}
-
