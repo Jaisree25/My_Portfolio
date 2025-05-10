@@ -68,17 +68,42 @@ img {
   }
 }
 */
-body, html {
+
+html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif !important;
+  background: linear-gradient(to bottom, #000000, #1a1a1a) !important;
+  color: white !important;
+  font-weight: bold !important;
 }
 
-body {
-  background: linear-gradient(to bottom, #000000, #1a1a1a);
-  color: white;
-  font-weight: bold;
+h1, h2, h3, h4, h5, h6, p, span {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+a {
+  color: #ffffff !important;
+  font-weight: bold !important;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #00ffff !important;
+}
+
+.text-muted {
+  color: white !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.container {
+  padding-top: 20px;
 }
 
 header {
@@ -91,78 +116,56 @@ header {
 
 .title-super {
   font-size: 2.5em;
-  color: white;
-  font-weight: bold;
+  color: white !important;
+  font-weight: bold !important;
 }
 
 .side-title {
   font-size: 1.2em;
-  color: white;
-}
-
-hr {
-  border-color: #555;
-}
-
-.head img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  margin-bottom: 20px;
-}
-
-h2, h3, h4, h5, h6 {
-  color: white;
-  font-weight: bold;
-}
-
-a {
-  color: #ffffff;
-  text-decoration: underline;
-  font-weight: bold;
-}
-
-a:hover {
-  color: #00ffff;
-}
-
-.text-muted {
   color: white !important;
 }
 
-.text-center {
-  text-align: center;
+hr {
+  border-color: #555 !important;
+}
+
+.img-responsive, .head img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.col-md-4 h3 {
+  margin-top: 15px;
+  color: white !important;
+  font-weight: bold !important;
 }
 
 .modal-content {
-  background-color: #222;
-  color: white;
-  border: 1px solid #444;
+  background-color: #222 !important;
+  color: white !important;
+  border: 1px solid #444 !important;
 }
 
 .modal-header, .modal-footer {
-  border-color: #444;
+  border-color: #444 !important;
 }
 
 .modal-title {
-  color: white;
-  font-weight: bold;
+  color: white !important;
+  font-weight: bold !important;
 }
 
 footer {
   padding: 20px 0;
-  background-color: #111;
+  background-color: #111 !important;
   text-align: center;
 }
 
 footer p {
   margin: 0;
-  color: white;
-  font-weight: bold;
+  color: white !important;
+  font-weight: bold !important;
 }
 
-.img-responsive {
-  width: 100%;
-  height: auto;
-  border-radius: 6px;
-}
