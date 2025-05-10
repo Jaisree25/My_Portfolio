@@ -50,6 +50,8 @@ img {
    display: block;
    margin-right: auto;
    margin-left: auto;
+   width: 180px !important;
+   height: 135px !important;
  }
 }
 
