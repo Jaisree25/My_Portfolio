@@ -1,4 +1,4 @@
-* {
+/** {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -6,13 +6,14 @@
 }
 
 body {
+  background: linear-gradient(to bottom, #000000, #1a1a1a);
   font-family: "Lato", sans-serif;
-  color: #ff6600;
+  color: white;
   font-weight: bold;
  }
 
 .text-muted {
-  color: #bcbbbb;
+  color: white;
 }
 .text-thin {
   font-weight: 100;
@@ -65,4 +66,103 @@ img {
     margin-right: auto;
     margin-left: auto;
   }
+}
+*/
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, #000000, #1a1a1a);
+  color: white;
+  font-weight: bold;
+}
+
+header {
+  padding: 20px 0;
+}
+
+.title-logo {
+  max-height: 100px;
+}
+
+.title-super {
+  font-size: 2.5em;
+  color: white;
+  font-weight: bold;
+}
+
+.side-title {
+  font-size: 1.2em;
+  color: white;
+}
+
+hr {
+  border-color: #555;
+}
+
+.head img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+h2, h3, h4, h5, h6 {
+  color: white;
+  font-weight: bold;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #00ffff;
+}
+
+.text-muted {
+  color: white !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.modal-content {
+  background-color: #222;
+  color: white;
+  border: 1px solid #444;
+}
+
+.modal-header, .modal-footer {
+  border-color: #444;
+}
+
+.modal-title {
+  color: white;
+  font-weight: bold;
+}
+
+footer {
+  padding: 20px 0;
+  background-color: #111;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  color: white;
+  font-weight: bold;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
 }
